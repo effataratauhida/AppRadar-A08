@@ -2,10 +2,10 @@ import React from 'react';
 import gitImg from '../../assets/git.png'
 import logo from '../../assets/logo.png'
 
-
 const Navbar = () => {
     return (
-        <div className="max-w-7xl mx-auto py-6 flex items-center justify-between">
+        <nav>
+              <div className="max-w-10/12 mx-auto py-5 flex items-center justify-between">
 
             <div className='flex items-center gap-1'>
                 <img className='w-10 h-10' src={logo} alt="" />
@@ -28,6 +28,8 @@ const Navbar = () => {
   
 
 </div>
+        </nav>
+      
     );
 };
 
