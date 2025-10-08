@@ -1,13 +1,14 @@
 import React from 'react';
 
 import Banner from '../../components/Banner/Banner';
-import Apps from '../Apps/Apps';
+import TrendingApps from '../TrendingApps/TrendingApps';
+
 
 const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <Apps></Apps>
+            <TrendingApps></TrendingApps>
         </div>
 
     );
