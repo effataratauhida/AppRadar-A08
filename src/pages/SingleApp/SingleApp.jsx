@@ -1,11 +1,20 @@
 import React from 'react';
 import downloadIcon from '../../assets/icon-downloads.png'
 import ratingsIcon from '../../assets/icon-ratings.png'
+import { useNavigate } from 'react-router';
 
 const SingleApp = ({ app }) => {
+
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        navigate(`/app/${app.id}`);
+    }
+
     return (
         
-        <div className='bg-white p-4 rounded-sm md:h-[400px] '>
+        <div onClick={handleClick}
+        className='bg-white p-4 rounded-sm md:h-[400px] '>
                             <img src={app.image} alt="" className='w-full rounded-lg h-3/4'/>
                                 <h2 className='font-medium text-xl text-[#001931] mt-4'>{app.title}</h2>
                                 <div className='flex items-center justify-between mt-4'>

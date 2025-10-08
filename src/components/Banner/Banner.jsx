@@ -17,13 +17,15 @@ const Banner = () => {
         <div className='max-w-11/12 mx-auto flex flex-col md:flex-row items-center justify-center gap-4 pb-10'>
 
             {/* play store btn */}
-            <button className='flex gap-2.5 border-2 border-gray-400 rounded-sm py-4 px-4 bg-[#D2D2D2] cursor-pointer hover:scale-105'>
+            <button onClick={() => window.open("https://play.google.com", "_blank")}
+            className='flex gap-2.5 border-2 border-gray-400 rounded-sm py-4 px-4 bg-[#D2D2D2] cursor-pointer hover:scale-105'>
                 <img src={playStoreImg} alt="" />
                 <h4 className='font-semibold text-xl text-[#001931] '>Google Play</h4>
             </button>
 
             {/* app store btn */}
-            <button className='flex gap-2.5 border-2 border-gray-400 rounded-sm py-4 px-5 bg-[#D2D2D2] cursor-pointer hover:scale-105'>
+            <button onClick={() => window.open("https://apps.apple.com", "_blank")}
+            className='flex gap-2.5 border-2 border-gray-400 rounded-sm py-4 px-5 bg-[#D2D2D2] cursor-pointer hover:scale-105'>
                 <img src={appStoreImg} alt="" />
                 <h4 className='font-semibold text-xl text-[#001931] '>App Store</h4>
             </button>
