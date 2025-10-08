@@ -4,6 +4,7 @@ import Root from '../pages/Root/Root';
 import ErrorPage from '../pages/ErrorPage/ErrorPage';
 import Home from '../pages/Home/Home';
 import Apps from '../pages/Apps/Apps'
+import Installation from '../pages/Installation/Installation';
 
 
 
@@ -32,6 +33,15 @@ export const router = createBrowserRouter([
           return res.json();
         },
 
+        },
+        {
+          path: '/installation',
+          Component: Installation,
+          loader: async () => {
+          const res = await fetch("/appData.json");
+          if (!res.ok) throw new Error("Failed to fetch data");
+            return res.json();
+  }
         }
     ]
   },

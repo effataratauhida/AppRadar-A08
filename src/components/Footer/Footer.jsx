@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         
             <footer className=' bg-[#001931]'>
-                <div className='max-w-11/12 mx-auto py-8 flex flex-col md:flex-row  justify-between'>
+                <div className='max-w-11/12 mx-auto py-8 grid grid-cols-2 md:grid-cols-4'>
                     <div>
                         <img src={logo} alt="" className='h-20 w-20 mb-1' />
                         <h2 className='font-bold text-3xl bg-gradient-to-r from-[#632EE3] to-[#9F62F2] 

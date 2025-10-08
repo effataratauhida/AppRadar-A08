@@ -7,14 +7,14 @@ const Banner = () => {
     return (
         <div className='parentDiv bg-[#E9E9E9] '>
        {/* banner */}
-        <div className='text-center pt-20 pb-10 max-w-10/12 mx-auto'>
+        <div className='text-center pt-20 pb-10 max-w-11/12 mx-auto'>
             <h1 className='text-5xl md:text-7xl text-[#001931] font-semibold '>We Build 
                 <br /> <span className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] 
                     bg-clip-text text-transparent'>Productive</span> Apps</h1>
             <p className='text-[#627382] text-base md:text-lg mt-4'>At AppRadar, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. Our goal is to turn your ideas into digital experiences that truly make an impact.</p>        
         </div>
         {/* 2 buttons */}
-        <div className='max-w-10/12 mx-auto flex flex-col md:flex-row items-center justify-center gap-4 pb-10'>
+        <div className='max-w-11/12 mx-auto flex flex-col md:flex-row items-center justify-center gap-4 pb-10'>
 
             {/* play store btn */}
             <button className='flex gap-2.5 border-2 border-gray-400 rounded-sm py-4 px-4 bg-[#D2D2D2] cursor-pointer hover:scale-105'>
@@ -29,14 +29,14 @@ const Banner = () => {
             </button>
         </div>
         {/* hero img */}
-        <div className='max-w-10/12 mx-auto flex flex-col items-center justify-center 
+        <div className='max-w-11/12 mx-auto flex flex-col items-center justify-center 
         '>
             <img src={heroImg} alt="" />
         </div>
 
         {/* states */}
         <div className=' bg-gradient-to-r from-[#632EE3] to-[#9F62F2] py-20'>
-            <div className='max-w-10/12 mx-auto text-center'>
+            <div className='max-w-11/12 mx-auto text-center'>
                 <h2 className='font-bold text-4xl md:text-5xl text-white'>Trusted by Millions, Built for You</h2>
                 {/* 3 states btn */}
                 <div className='mt-10 flex items-center justify-center gap-12'>
