@@ -15,12 +15,23 @@ export const router = createBrowserRouter([
     children: [
         {
             index: true,
+            loader: async () => {
+              const res = await fetch("/appData.json");
+              if (!res.ok) throw new Error("Failed to fetch data");
+                return res.json();
+              },
             path: '/',
-            Component:Home
+            Component: Home
         },
         {
           path: '/apps',
-          Component: Apps
+          Component: Apps,
+          loader: async () => {
+          const res = await fetch("/appData.json");
+          if (!res.ok) throw new Error("Failed to fetch data");
+          return res.json();
+        },
+
         }
     ]
   },

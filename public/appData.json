@@ -1,362 +1,362 @@
 [
   {
-    "image": "https://i.ibb.co/XYZ1.jpg",
-    "title": "Snapify",
-    "companyName": "PixelWorks Inc.",
     "id": 1,
-    "description": "A smart photo editor with AI filters and instant sharing.",
-    "size": 45,
-    "reviews": 12045,
-    "ratingAvg": 4.6,
-    "downloads": 5000000,
-    "ratings": [
-      { "name": "1 star", "count": 234 },
-      { "name": "2 star", "count": 514 },
-      { "name": "3 star", "count": 1203 },
-      { "name": "4 star", "count": 3402 },
-      { "name": "5 star", "count": 8692 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co/XYZ2.jpg",
-    "title": "TaskPilot",
-    "companyName": "NovaSoft",
-    "id": 2,
-    "description": "Organize tasks and boost productivity with smart reminders.",
-    "size": 32,
-    "reviews": 8420,
-    "ratingAvg": 4.4,
-    "downloads": 2000000,
-    "ratings": [
-      { "name": "1 star", "count": 340 },
-      { "name": "2 star", "count": 604 },
-      { "name": "3 star", "count": 1230 },
-      { "name": "4 star", "count": 2990 },
-      { "name": "5 star", "count": 5256 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co/XYZ3.jpg",
-    "title": "FitTrack",
-    "companyName": "ActiveWare",
-    "id": 3,
-    "description": "Track workouts, calories, and progress effortlessly.",
-    "size": 56,
-    "reviews": 19340,
+    "title": "Learnify",
+    "companyName": "EduSpark",
+    "description": "Learnify is a comprehensive education app that brings interactive lessons, quizzes, and progress tracking into one place. It helps students master subjects with adaptive learning paths, AI-based guidance, and personalized reports for every learner.",
+    "image": "https://i.postimg.cc/mDcwC4Cf/4c068f67-1ce0-4495-9edc-09bd0a13bb18.jpg",
+    "size": 85,
+    "reviews": 2400,
     "ratingAvg": 4.8,
-    "downloads": 12000000,
+    "downloads": 1200000,
     "ratings": [
-      { "name": "1 star", "count": 532 },
-      { "name": "2 star", "count": 612 },
-      { "name": "3 star", "count": 2034 },
-      { "name": "4 star", "count": 5632 },
-      { "name": "5 star", "count": 10678 }
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1330 }
     ]
   },
   {
-    "image": "https://i.ibb.co/XYZ4.jpg",
-    "title": "NoteEase",
-    "companyName": "SkyBound Studios",
+    "id": 2,
+    "title": "MathMaster",
+    "companyName": "SmartBrain",
+    "description": "MathMaster offers engaging lessons and step-by-step problem solving for algebra, calculus, and geometry. It uses AI tutors and real-time practice to make math easier and more enjoyable for learners of all ages.",
+    "image": "https://i.postimg.cc/02kS1Z4w/Math-Master.png",
+    "size": 92,
+    "reviews": 3150,
+    "ratingAvg": 4.7,
+    "downloads": 980000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1670 }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "PhysicsLab",
+    "companyName": "SciLearn",
+    "description": "PhysicsLab brings complex physical concepts to life with realistic simulations and experiments. From motion to electromagnetism, learners can visualize theories and experiment safely in a virtual environment.",
+    "image": "https://i.postimg.cc/bJkjg7fH/Ciencias-planeta-logo-dignarse-icono-modelo-con-laboratorio-vector-ilustraci-n.jpg",
+    "size": 110,
+    "reviews": 1850,
+    "ratingAvg": 4.6,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 750 }
+    ]
+  },
+  {
     "id": 4,
-    "description": "Take notes, record ideas, and sync them across all devices.",
-    "size": 28,
-    "reviews": 6550,
-    "ratingAvg": 4.2,
+    "title": "LinguaLearn",
+    "companyName": "PolyGlot",
+    "description": "Learn 15+ languages through conversational lessons and daily challenges. LinguaLearn uses gamification to keep learners motivated while focusing on real-world speaking and listening skills.",
+    "image": "https://i.postimg.cc/9FYvrX18/Lingua-Learn.png",
+    "size": 105,
+    "reviews": 4100,
+    "ratingAvg": 4.9,
     "downloads": 1500000,
     "ratings": [
-      { "name": "1 star", "count": 420 },
-      { "name": "2 star", "count": 740 },
-      { "name": "3 star", "count": 1430 },
-      { "name": "4 star", "count": 2510 },
-      { "name": "5 star", "count": 3450 }
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 3050 }
     ]
   },
   {
-    "image": "https://i.ibb.co/XYZ5.jpg",
-    "title": "Foodify",
-    "companyName": "Delish Apps",
     "id": 5,
-    "description": "Discover recipes, plan meals, and order groceries instantly.",
-    "size": 61,
-    "reviews": 15900,
-    "ratingAvg": 4.7,
-    "downloads": 8300000,
+    "title": "CodeHub",
+    "companyName": "TechEdu",
+    "description": "CodeHub teaches programming through hands-on projects and interactive challenges. It supports multiple languages like Python, JavaScript, and C++, making it perfect for both beginners and advanced learners.",
+    "image": "https://i.postimg.cc/yNmfrvtN/Fullstack-Chart.jpg",
+    "size": 125,
+    "reviews": 5200,
+    "ratingAvg": 4.8,
+    "downloads": 2000000,
     "ratings": [
-      { "name": "1 star", "count": 460 },
-      { "name": "2 star", "count": 840 },
-      { "name": "3 star", "count": 1980 },
-      { "name": "4 star", "count": 4800 },
-      { "name": "5 star", "count": 7820 }
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 3860 }
     ]
   },
   {
-    "image": "https://i.ibb.co/XYZ6.jpg",
-    "title": "TravelMate",
-    "companyName": "GlobalWays",
     "id": 6,
-    "description": "Plan trips, explore destinations, and find travel deals easily.",
-    "size": 73,
-    "reviews": 12450,
+    "title": "ChemistPro",
+    "companyName": "EduWorld",
+    "description": "Explore chemical reactions, equations, and periodic trends with ChemistPro. Its interactive 3D molecular viewer helps students understand complex chemistry concepts easily and visually.",
+    "image": "https://i.postimg.cc/7PVFLYKF/Chemistry-Free-Vector.jpg",
+    "size": 90,
+    "reviews": 1600,
     "ratingAvg": 4.5,
-    "downloads": 6200000,
+    "downloads": 600000,
     "ratings": [
-      { "name": "1 star", "count": 502 },
-      { "name": "2 star", "count": 630 },
-      { "name": "3 star", "count": 2100 },
-      { "name": "4 star", "count": 3950 },
-      { "name": "5 star", "count": 7268 }
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 770 }
     ]
   },
   {
-    "image": "https://i.ibb.co/XYZ7.jpg",
-    "title": "TuneNest",
-    "companyName": "SonicLab",
     "id": 7,
-    "description": "Stream your favorite music and discover new artists.",
-    "size": 95,
-    "reviews": 28450,
-    "ratingAvg": 4.3,
-    "downloads": 25000000,
+    "title": "ExamPrep+",
+    "companyName": "TestWise",
+    "description": "ExamPrep+ is your all-in-one test preparation platform featuring mock tests, timed quizzes, and progress analytics. Designed for competitive exams like SAT, GRE, and local board tests.",
+    "image": "https://i.postimg.cc/Hs4kd7K7/d7c1ff27-23c4-4354-8f6e-2cf15da2aa49.jpg",
+    "size": 102,
+    "reviews": 1900,
+    "ratingAvg": 4.6,
+    "downloads": 970000,
     "ratings": [
-      { "name": "1 star", "count": 1890 },
-      { "name": "2 star", "count": 2360 },
-      { "name": "3 star", "count": 5030 },
-      { "name": "4 star", "count": 7840 },
-      { "name": "5 star", "count": 11330 }
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1020 }
     ]
   },
   {
-    "image": "https://i.ibb.co/XYZ8.jpg",
-    "title": "EduVerse",
-    "companyName": "MindSpark Ltd.",
     "id": 8,
-    "description": "Learn online with free courses and interactive lessons.",
-    "size": 84,
-    "reviews": 18760,
-    "ratingAvg": 4.9,
-    "downloads": 10500000,
+    "title": "BioScope",
+    "companyName": "LifeLearn",
+    "description": "BioScope makes biology exciting with 3D animations of cells, organs, and ecosystems. It includes quizzes, flashcards, and experiments for deeper understanding of life sciences.",
+    "image": "https://i.postimg.cc/6qfGGbHV/biology-cover-page-aesthetic.jpg",
+    "size": 80,
+    "reviews": 950,
+    "ratingAvg": 4.4,
+    "downloads": 500000,
     "ratings": [
-      { "name": "1 star", "count": 320 },
-      { "name": "2 star", "count": 420 },
-      { "name": "3 star", "count": 890 },
-      { "name": "4 star", "count": 4560 },
-      { "name": "5 star", "count": 12570 }
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 320 }
     ]
   },
   {
-    "image": "https://i.ibb.co/XYZ9.jpg",
-    "title": "ShopSmart",
-    "companyName": "EcomVerse",
     "id": 9,
-    "description": "Compare prices, read reviews, and shop from trusted stores.",
-    "size": 64,
-    "reviews": 21680,
-    "ratingAvg": 4.4,
-    "downloads": 9500000,
-    "ratings": [
-      { "name": "1 star", "count": 670 },
-      { "name": "2 star", "count": 980 },
-      { "name": "3 star", "count": 2760 },
-      { "name": "4 star", "count": 5280 },
-      { "name": "5 star", "count": 9990 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co/XYZ10.jpg",
-    "title": "MindCalm",
-    "companyName": "Tranquil Apps",
-    "id": 10,
-    "description": "Meditation and sleep sounds to help you relax anytime.",
-    "size": 52,
-    "reviews": 10500,
-    "ratingAvg": 4.8,
-    "downloads": 4000000,
-    "ratings": [
-      { "name": "1 star", "count": 230 },
-      { "name": "2 star", "count": 340 },
-      { "name": "3 star", "count": 810 },
-      { "name": "4 star", "count": 2560 },
-      { "name": "5 star", "count": 6560 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co/XYZ11.jpg",
-    "title": "CryptoPulse",
-    "companyName": "ChainCore",
-    "id": 11,
-    "description": "Track cryptocurrency prices and get real-time alerts.",
-    "size": 41,
-    "reviews": 9540,
-    "ratingAvg": 4.3,
-    "downloads": 3100000,
-    "ratings": [
-      { "name": "1 star", "count": 410 },
-      { "name": "2 star", "count": 580 },
-      { "name": "3 star", "count": 1540 },
-      { "name": "4 star", "count": 2890 },
-      { "name": "5 star", "count": 4120 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co/XYZ12.jpg",
-    "title": "Weatherly",
-    "companyName": "ClimaTech",
-    "id": 12,
-    "description": "Accurate forecasts, radar maps, and weather alerts.",
-    "size": 38,
-    "reviews": 8750,
-    "ratingAvg": 4.1,
-    "downloads": 2700000,
-    "ratings": [
-      { "name": "1 star", "count": 560 },
-      { "name": "2 star", "count": 690 },
-      { "name": "3 star", "count": 1540 },
-      { "name": "4 star", "count": 2890 },
-      { "name": "5 star", "count": 4070 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co/XYZ13.jpg",
-    "title": "CamPro",
-    "companyName": "LensLab",
-    "id": 13,
-    "description": "Professional camera controls and filters for photographers.",
-    "size": 78,
-    "reviews": 17400,
+    "title": "GeoExplorer",
+    "companyName": "MapMind",
+    "description": "GeoExplorer helps learners visualize world geography with dynamic maps, satellite images, and trivia. Ideal for students preparing for geography exams or general knowledge tests.",
+    "image": "https://i.postimg.cc/NFBKY7g8/adventure.jpg",
+    "size": 97,
+    "reviews": 1200,
     "ratingAvg": 4.5,
-    "downloads": 7400000,
+    "downloads": 630000,
     "ratings": [
-      { "name": "1 star", "count": 780 },
-      { "name": "2 star", "count": 1030 },
-      { "name": "3 star", "count": 2130 },
-      { "name": "4 star", "count": 4780 },
-      { "name": "5 star", "count": 8680 }
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 390 }
     ]
   },
   {
-    "image": "https://i.ibb.co/XYZ14.jpg",
-    "title": "NewsHunt",
-    "companyName": "InfoStream",
-    "id": 14,
-    "description": "Get breaking news and personalized updates from trusted sources.",
-    "size": 43,
-    "reviews": 9400,
-    "ratingAvg": 4.2,
-    "downloads": 3600000,
-    "ratings": [
-      { "name": "1 star", "count": 490 },
-      { "name": "2 star", "count": 720 },
-      { "name": "3 star", "count": 1300 },
-      { "name": "4 star", "count": 2800 },
-      { "name": "5 star", "count": 4090 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co/XYZ15.jpg",
-    "title": "Budgetly",
-    "companyName": "FinSage",
-    "id": 15,
-    "description": "Manage expenses, budgets, and track savings effortlessly.",
-    "size": 39,
-    "reviews": 8100,
-    "ratingAvg": 4.6,
-    "downloads": 2900000,
-    "ratings": [
-      { "name": "1 star", "count": 320 },
-      { "name": "2 star", "count": 480 },
-      { "name": "3 star", "count": 1030 },
-      { "name": "4 star", "count": 2420 },
-      { "name": "5 star", "count": 4850 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co/XYZ16.jpg",
-    "title": "RideNow",
-    "companyName": "MoveFast Ltd.",
-    "id": 16,
-    "description": "Book rides, track drivers, and travel with safety features.",
-    "size": 70,
-    "reviews": 15600,
-    "ratingAvg": 4.4,
-    "downloads": 9700000,
-    "ratings": [
-      { "name": "1 star", "count": 890 },
-      { "name": "2 star", "count": 1010 },
-      { "name": "3 star", "count": 2090 },
-      { "name": "4 star", "count": 4100 },
-      { "name": "5 star", "count": 7510 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co/XYZ17.jpg",
-    "title": "QuizMaster",
-    "companyName": "EduFun",
-    "id": 17,
-    "description": "Play fun quizzes and test your knowledge daily.",
-    "size": 48,
-    "reviews": 10400,
-    "ratingAvg": 4.7,
-    "downloads": 3800000,
-    "ratings": [
-      { "name": "1 star", "count": 250 },
-      { "name": "2 star", "count": 410 },
-      { "name": "3 star", "count": 910 },
-      { "name": "4 star", "count": 2700 },
-      { "name": "5 star", "count": 6130 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co/XYZ18.jpg",
-    "title": "Langly",
-    "companyName": "SpeakSmart",
-    "id": 18,
-    "description": "Learn new languages easily with AI-powered lessons.",
-    "size": 59,
-    "reviews": 14320,
-    "ratingAvg": 4.8,
-    "downloads": 8000000,
-    "ratings": [
-      { "name": "1 star", "count": 330 },
-      { "name": "2 star", "count": 470 },
-      { "name": "3 star", "count": 1130 },
-      { "name": "4 star", "count": 3550 },
-      { "name": "5 star", "count": 8840 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co/XYZ19.jpg",
-    "title": "GameZone",
-    "companyName": "NextPlay",
-    "id": 19,
-    "description": "Explore trending games and connect with other players.",
-    "size": 115,
-    "reviews": 21800,
+    "id": 10,
+    "title": "ReadSmart",
+    "companyName": "BookVerse",
+    "description": "ReadSmart trains users in speed reading and comprehension with AI-powered insights. Track reading pace, understand retention rates, and challenge yourself daily.",
+    "image": "https://i.postimg.cc/BZp6HFS2/Novel-Photos-Download-Free-High-Quality-Pictures-Freepik.jpg",
+    "size": 76,
+    "reviews": 890,
     "ratingAvg": 4.3,
-    "downloads": 22000000,
+    "downloads": 490000,
     "ratings": [
-      { "name": "1 star", "count": 1720 },
-      { "name": "2 star", "count": 2090 },
-      { "name": "3 star", "count": 4120 },
-      { "name": "4 star", "count": 6200 },
-      { "name": "5 star", "count": 9670 }
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 270 }
     ]
   },
   {
-    "image": "https://i.ibb.co/XYZ20.jpg",
-    "title": "HealthHub",
-    "companyName": "VitalSync",
-    "id": 20,
-    "description": "Monitor health metrics and connect with doctors online.",
-    "size": 66,
-    "reviews": 15400,
-    "ratingAvg": 4.6,
-    "downloads": 7600000,
+    "id": 11,
+    "title": "Artify",
+    "companyName": "CreativeEdu",
+    "description": "Artify offers structured courses in drawing, painting, and digital art. Learn from artists through video tutorials, sketch assignments, and art contests to boost creativity.",
+    "image": "https://i.postimg.cc/15gQXVfC/c4de774a-5119-4266-a04d-d8ee607f1053.jpg",
+    "size": 88,
+    "reviews": 1120,
+    "ratingAvg": 4.4,
+    "downloads": 420000,
     "ratings": [
-      { "name": "1 star", "count": 530 },
-      { "name": "2 star", "count": 710 },
-      { "name": "3 star", "count": 1820 },
-      { "name": "4 star", "count": 4120 },
-      { "name": "5 star", "count": 8220 }
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 480 }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Histopedia",
+    "companyName": "PastLearn",
+    "description": "Histopedia combines fun facts, visual timelines, and trivia quizzes to make learning history interactive. Discover ancient civilizations and modern events in one place.",
+    "image": "https://i.postimg.cc/d3CcWzMN/16a82aa9-cbc3-4f2a-95d9-ff28fb134d41.jpg",
+    "size": 100,
+    "reviews": 1350,
+    "ratingAvg": 4.6,
+    "downloads": 710000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 530 }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "FinanceEdu",
+    "companyName": "MoneyMind",
+    "description": "FinanceEdu simplifies financial literacy with practical lessons on budgeting, saving, and investing. It uses gamified modules and case studies to make money management fun.",
+    "image": "https://i.postimg.cc/yYKG4J0g/Widget-Finanze.jpg",
+    "size": 95,
+    "reviews": 1420,
+    "ratingAvg": 4.6,
+    "downloads": 680000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 650 }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "StatGuru",
+    "companyName": "MathPro",
+    "description": "StatGuru helps students grasp statistics with interactive graphs, datasets, and exercises. It breaks down complex formulas into visual examples and simple tutorials.",
+    "image": "https://i.postimg.cc/yNRh8jzM/88f0252e-111d-498a-ac95-ebc4d0cbe9dd.jpg",
+    "size": 86,
+    "reviews": 980,
+    "ratingAvg": 4.5,
+    "downloads": 530000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 330 }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "WriteRight",
+    "companyName": "WordCraft",
+    "description": "WriteRight is your AI writing assistant for improving grammar and clarity. From essays to research papers, it gives instant suggestions and readability scores.",
+    "image": "https://i.postimg.cc/K86qfRGq/Grammarly-Der-kostenlose-Grammatik-und-Rechtschreibpr-fer-f-r-englische-Texte.jpg",
+    "size": 84,
+    "reviews": 2150,
+    "ratingAvg": 4.8,
+    "downloads": 1350000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1220 }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "AstroLearn",
+    "companyName": "CosmoEd",
+    "description": "AstroLearn lets you explore space with interactive star maps, quizzes, and astronomy facts. Perfect for students who love stargazing and space science.",
+    "image": "https://source.unsplash.com/600x600/?astronomy,stars",
+    "size": 102,
+    "reviews": 890,
+    "ratingAvg": 4.5,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 300 }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "TutorConnect",
+    "companyName": "LearnTogether",
+    "description": "TutorConnect connects students with certified tutors for online study sessions. It supports one-on-one tutoring and group discussions across subjects.",
+    "image": "https://source.unsplash.com/600x600/?teacher,student",
+    "size": 113,
+    "reviews": 3300,
+    "ratingAvg": 4.9,
+    "downloads": 2300000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 2210 }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "MusicMind",
+    "companyName": "TuneEdu",
+    "description": "MusicMind teaches the fundamentals of rhythm, scales, and melody. Learners can practice instruments, identify notes by ear, and improve their musical skills.",
+    "image": "https://source.unsplash.com/600x600/?music,education",
+    "size": 77,
+    "reviews": 970,
+    "ratingAvg": 4.6,
+    "downloads": 620000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 270 }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "EcoLearn",
+    "companyName": "GreenMind",
+    "description": "EcoLearn is an environmental education app promoting sustainability. It teaches climate change, recycling, and conservation through games and stories.",
+    "image": "https://source.unsplash.com/600x600/?environment,learning",
+    "size": 79,
+    "reviews": 920,
+    "ratingAvg": 4.4,
+    "downloads": 480000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 360 }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "ChemQuiz",
+    "companyName": "EduTest",
+    "description": "ChemQuiz offers daily chemistry challenges, periodic table tests, and global leaderboards. Perfect for students preparing for exams or improving their concepts.",
+    "image": "https://source.unsplash.com/600x600/?chemistry,quiz",
+    "size": 83,
+    "reviews": 1150,
+    "ratingAvg": 4.5,
+    "downloads": 560000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 480 }
     ]
   }
 ]
