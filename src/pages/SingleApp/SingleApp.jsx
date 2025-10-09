@@ -9,6 +9,7 @@ const SingleApp = ({ app }) => {
 
     const handleClick = () => {
         navigate(`/app/${app.id}`);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
     return (

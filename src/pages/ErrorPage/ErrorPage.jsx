@@ -10,10 +10,15 @@ const ErrorPage = () => {
     const navigation = useNavigation();
     
      const navigate = useNavigate();
-     const handleGoBack = () => { navigate('/'); };
+     const handleGoBack = () => { navigate('/');
+         window.scrollTo({ top: 0, behavior: 'smooth' });
+      };
 
     return (
         <>
+            
+            <Spinner navigationState={navigation.state} />
+
 
         <Navbar></Navbar>
         <div className='bg-[#E9E9E9]'>
@@ -25,7 +30,8 @@ const ErrorPage = () => {
                 
                 <button onClick={handleGoBack}
                 className='mt-4 font-semibold text-base text-white rounded-sm py-4 px-10
-                bg-gradient-to-r from-[#632EE3] to-[#9F62F2] cursor-pointer hover:scale-105'>Go Back!</button>
+                bg-gradient-to-r from-[#632EE3] to-[#9F62F2] cursor-pointer hover:scale-105'>Go Back!
+                </button>
                 
             </div>
         </div>

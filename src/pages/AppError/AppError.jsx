@@ -7,7 +7,9 @@ const AppError = () => {
 
      const navigation = useNavigation();
      const navigate = useNavigate();
-     const handleGoBack = () => { navigate('/'); };
+     const handleGoBack = () => { navigate('/'); 
+         window.scrollTo({ top: 0, behavior: 'smooth' });
+     };
     
     return (
         <>

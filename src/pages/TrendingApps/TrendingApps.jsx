@@ -1,12 +1,24 @@
 import React, { Suspense, useState } from 'react';
 import SingleApp from '../SingleApp/SingleApp';
-import { Link } from 'react-router';
+import { Link, useNavigate, useNavigation } from 'react-router';
+import Spinner from '../../components/Spinner/Spinner';
 
 
 
 const TrendingApps = ({data}) => {
+
+    const navigation = useNavigation();
+    
+     const navigate = useNavigate();
+     const handleShowAll = () => { navigate('/apps');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      };
     
     return (
+        <>
+        <Spinner navigationState={navigation.state} />
+
+
         <div className='bg-[#E9E9E9]'>
             {/* trending apps */}
         <div className='max-w-11/12 mx-auto py-12'>
@@ -27,15 +39,17 @@ const TrendingApps = ({data}) => {
             </div>
             {/* show all btn */}
              <div className='flex justify-center'>
-                <Link to='/apps' className='hover:scale-105 cursor-pointer rounded-sm bg-gradient-to-r
+                <button onClick={handleShowAll}
+                 className='hover:scale-105 cursor-pointer rounded-sm bg-gradient-to-r
                 from-[#632EE3] to-[#9F62F2] py-2 px-3 md:py-3 md:px-10
                 text-white font-semibold text-base mt-10 mb-10'>Show All
-            </Link>
+            </button>
              </div>
             
             
         </div>
         </div>
+        </>
     );
 };
 

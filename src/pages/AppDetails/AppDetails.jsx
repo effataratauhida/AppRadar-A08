@@ -3,9 +3,9 @@ import { useLoaderData, useParams } from 'react-router';
 import downloadIcon from '../../assets/icon-downloads.png'
 import ratingsIcon from '../../assets/icon-ratings.png'
 import reviewsIcon from '../../assets/icon-review.png'
-
-import { Bar, BarChart, LabelList, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import { Bar, BarChart,  ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import AppError from '../AppError/AppError';
+import toast, { Toaster } from 'react-hot-toast';
 
 const AppDetail = () => {
     const allApps = useLoaderData();
@@ -14,6 +14,7 @@ const AppDetail = () => {
     const app = allApps.find( app => app.id === parseInt(id));
 
      const [isInstalled, setIsInstalled] = useState(false);
+     const [toastMessage, setToastMessage] = useState('');
     //   check already installed or not
     useEffect(() => {
         const installedApps = JSON.parse(localStorage.getItem("installedApps")) || [];
@@ -34,11 +35,19 @@ const AppDetail = () => {
         installedApps.push(app);
         localStorage.setItem("installedApps", JSON.stringify(installedApps));
         setIsInstalled(true);
+
+        // toast
+        toast.success(`${app.title} installed successfully!`);
     };
-    
+
+     
     return (
         
         <div className='bg-[#E9E9E9] pt-20'>
+
+            {/* Toast */}
+             <Toaster position="top-right" reverseOrder={false}  />
+
             {/* card details */}
             <div className='max-w-11/12 mx-auto flex flex-col md:flex-row gap-10 pb-10 relative'>
                 <img src={app.image} alt="" className='w-[350px] h-[350px] rounded-lg '/>

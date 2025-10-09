@@ -1,16 +1,29 @@
-# React + Vite
+# AppRadar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Description
 
-## Expanding the ESLint configuration
+This app allows users to browse, search, and install trending applications from the market. Users can view app details, ratings, reviews, and download stats. Installed apps can be managed easily with uninstall options.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies
+
+- **React** - For building the user interface  
+- **React Router** - For navigation between pages  
+- **Tailwind CSS** - For styling and responsive design  
+- **Recharts** - For rendering rating charts  
+- **React Hot Toast** - For showing success or error notifications  
+- **LocalStorage** - To save installed apps locally  
+- **Lucide Icons** - For icons in the app
+
+
+## Features
+
+- Browse all apps with detailed information  
+- Live search functionality  
+- Install/Uninstall apps with toast notifications  
+- Sort installed apps by downloads (High-Low / Low-High)  
+- View ratings in a bar chart  
+- Responsive design for mobile and desktop 
