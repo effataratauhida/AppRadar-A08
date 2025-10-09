@@ -1,20 +1,40 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import downloadIcon from '../../assets/icon-downloads.png'
 import ratingsIcon from '../../assets/icon-ratings.png'
 import reviewsIcon from '../../assets/icon-review.png'
 
 import { Bar, BarChart, LabelList, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import AppError from '../AppError/AppError';
 
 const AppDetail = () => {
     const allApps = useLoaderData();
-
     const { id } = useParams();
 
     const app = allApps.find( app => app.id === parseInt(id));
+
+     const [isInstalled, setIsInstalled] = useState(false);
+    //   check already installed or not
+    useEffect(() => {
+        const installedApps = JSON.parse(localStorage.getItem("installedApps")) || [];
+        const alreadyInstalled = installedApps.some(item => item.id === app?.id);
+        setIsInstalled(alreadyInstalled);
+    }, [app?.id]);
+
     if (!app) {
-        return <p>app not found</p>
-    }
+        return <>
+          <AppError></AppError>
+        </> }
+
+    // install handle
+    const handleInstall = () => {
+        if (isInstalled) return;
+
+        const installedApps = JSON.parse(localStorage.getItem("installedApps")) || [];
+        installedApps.push(app);
+        localStorage.setItem("installedApps", JSON.stringify(installedApps));
+        setIsInstalled(true);
+    };
     
     return (
         
@@ -69,8 +89,17 @@ const AppDetail = () => {
                                     : app.reviews}</h2>
                         </div>
                     </div>
-                    <button className='mt-7 bg-[#00D390] py-3.5 px-5 rounded-sm font-semibold text-xl text-white cursor-pointer hover:scale-105'>Install Now 
-                        (<span>{app.size}</span> MB)</button>
+                    {/* install now btn */}
+                    <button onClick={handleInstall}
+                            disabled={isInstalled}
+                        className={`mt-7 bg-[#00D390] py-3.5 px-5 rounded-sm font-semibold text-xl text-white 
+                         
+                        ${isInstalled
+                        ? 'bg-gray-400 cursor-not-allowed' : 'bg-[#00D390] hover:scale-105 cursor-pointer'}`}> 
+
+                            {isInstalled ? "Installed" : "Install Now"}{" "}
+                            {!isInstalled && <span>({app.size} MB)</span>}
+                    </button>
                 </div>
                 <hr className='bottom-0 w-full border-t-2 border-[#327382] absolute'/>
             </div>

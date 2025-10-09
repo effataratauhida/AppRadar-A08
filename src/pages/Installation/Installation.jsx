@@ -22,6 +22,7 @@ const Installation = () => {
                     <option value="three">Option Three</option>
                   </select>
             </div>
+            {/* show installed apps */}
         </div>
     );
 };

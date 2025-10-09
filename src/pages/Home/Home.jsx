@@ -7,7 +7,6 @@ import { useLoaderData } from 'react-router';
 const Home = () => {
 
     const allApps = useLoaderData();
-        
     // Trending 8 Apps
     const trendingApps = allApps.slice(0,8);
 
