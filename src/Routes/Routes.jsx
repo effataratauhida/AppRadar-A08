@@ -17,42 +17,26 @@ export const router = createBrowserRouter([
     children: [
         {
             index: true,
-            loader: async () => {
-              const res = await fetch("/appData.json");
-              if (!res.ok) throw new Error("Failed to fetch data");
-                return res.json();
-              },
-            path: '/',
+            loader: () => fetch("/appData.json").then(res => res.json()),
+            
             Component: Home
         },
         {
           path: '/apps',
           Component: Apps,
-          loader: async () => {
-          const res = await fetch("/appData.json");
-          if (!res.ok) throw new Error("Failed to fetch data");
-          return res.json();
+          loader: () => fetch("/appData.json").then(res => res.json()),
         },
 
-        },
+        
         {
           path: '/installation',
           Component: Installation,
-          loader: async () => {
-          const res = await fetch("/appData.json");
-          if (!res.ok) throw new Error("Failed to fetch data");
-            return res.json();
-          }
+          loader: () => fetch("/appData.json").then(res => res.json()),
         },
         {
           path: '/app/:id',
           Component: AppDetail,
-          loader: async ({ params }) => {
-          const res = await fetch("/appData.json");
-          if (!res.ok) throw new Error("Failed to fetch data");
-          const data = await res.json();
-          return data.find(app => app.id === parseInt(params.id));
-          },
+          loader: () => fetch("/appData.json").then(res => res.json()),
         }
 
     ]
