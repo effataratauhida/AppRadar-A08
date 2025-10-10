@@ -14,7 +14,7 @@ const AppDetail = () => {
     const app = allApps.find( app => app.id === parseInt(id));
 
      const [isInstalled, setIsInstalled] = useState(false);
-     const [toastMessage, setToastMessage] = useState('');
+     
     //   check already installed or not
     useEffect(() => {
         const installedApps = JSON.parse(localStorage.getItem("installedApps")) || [];
@@ -50,20 +50,20 @@ const AppDetail = () => {
 
             {/* card details */}
             <div className='max-w-11/12 mx-auto flex flex-col md:flex-row gap-10 pb-10 relative'>
-                <img src={app.image} alt="" className='w-[350px] h-[350px] rounded-lg '/>
+                <img src={app.image} alt="" className='md:w-[350px] h-[350px]  rounded-lg  '/>
                 <div>
-                    <h2 className='font-bold text-3xl text-[#001931] mt-4'>{app.title}</h2>
+                    <h2 className='font-bold text-3xl text-[#001931] md:mt-4'>{app.title}</h2>
                     <p className='text-xl text-[#327382] mt-2'>Developed by <span className='text-xl font-semibold 
                     bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent'>{app.companyName}</span></p>
                     
-                    <hr className='top-28 border-t-2 border-[#327382] absolute  w-2/3'/>
+                    <hr className='top-28 border-t-2 border-[#327382] absolute lg:w-2/3'/>
                     
-                    <div className='flex gap-6 mt-12'>
+                    <div className='flex  gap-6 mt-5 lg:mt-12'>
                         {/* downloads */}
                         <div>
                             <img src={downloadIcon} alt=""   />
                             <p className='my-2 text-[#001931] text-base'>Downloads</p>
-                            <h2 className='font-extrabold text-4xl text-[#001931]'>
+                            <h2 className='font-extrabold lg:text-4xl text-2xl text-[#001931] '>
                                 {app.downloads >= 1000000 
                                 ? ((app.downloads / 1000000) % 1 === 0 
                                 ? (app.downloads / 1000000).toFixed(0) 
@@ -79,14 +79,14 @@ const AppDetail = () => {
                         <div>
                             <img src={ratingsIcon} alt="" />
                             <p className='my-2 text-[#001931] text-base'>Average Ratings</p>
-                            <h2  className='font-extrabold text-4xl text-[#001931]'>
+                            <h2  className='font-extrabold lg:text-4xl text-2xl text-[#001931]'>
                                 {app.ratingAvg}</h2>
                         </div>
                         {/* reviews */}
                         <div>
                             <img src={reviewsIcon} alt="" />
                             <p className='my-2 text-[#001931] text-base'>Total Reviews</p>
-                            <h2 className='font-extrabold text-4xl text-[#001931]'>
+                            <h2 className='font-extrabold lg:text-4xl text-2xl text-[#001931]'>
                                 {app.reviews >= 1000000 
                                 ? ((app.reviews / 1000000) % 1 === 0 
                                 ? (app.reviews / 1000000).toFixed(0) 
@@ -101,7 +101,7 @@ const AppDetail = () => {
                     {/* install now btn */}
                     <button onClick={handleInstall}
                             disabled={isInstalled}
-                        className={`mt-7 bg-[#00D390] py-3.5 px-5 rounded-sm font-semibold text-xl text-white 
+                        className={`mt-7 bg-[#00D390] py-3.5 px-5 rounded-sm font-semibold text-xl text-white ml-14 md:ml-0
                          
                         ${isInstalled
                         ? 'bg-gray-400 cursor-not-allowed' : 'bg-[#00D390] hover:scale-105 cursor-pointer'}`}> 

@@ -11,14 +11,13 @@ const ErrorPage = () => {
     
      const navigate = useNavigate();
      const handleGoBack = () => { navigate('/');
-         window.scrollTo({ top: 0, behavior: 'smooth' });
+        window.scrollTo({ top: 0, behavior: 'smooth' });
       };
 
     return (
         <>
             
-            <Spinner navigationState={navigation.state} />
-
+        <Spinner navigationState={navigation.state} />
 
         <Navbar></Navbar>
         <div className='bg-[#E9E9E9]'>
