@@ -4,9 +4,13 @@ import { useLoaderData } from 'react-router';
 import SingleApp from '../SingleApp/SingleApp';
 
 
+
 const Apps = () => {
        const allApps = useLoaderData();
        const [searchTerm, setSearchTerm] = useState('');
+
+       
+    
 
        // filters apps
        const filteredApps = allApps.filter(app => 

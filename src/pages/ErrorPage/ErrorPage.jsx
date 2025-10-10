@@ -3,6 +3,7 @@ import errorImg from '../../assets/error-404.png'
 import Navbar from '../../components/Header/Navbar';
 import Footer from '../../components/Footer/Footer';
 import { Link, useNavigate, useNavigation } from 'react-router';
+import Spinner from '../../components/Spinner/Spinner';
 
 
 const ErrorPage = () => {
@@ -40,5 +41,6 @@ const ErrorPage = () => {
         </>
     );
 };
+
 
 export default ErrorPage;

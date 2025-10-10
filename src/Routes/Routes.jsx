@@ -1,5 +1,5 @@
 import React from 'react';
-import { createBrowserRouter } from "react-router";
+import { createBrowserRouter } from "react-router-dom";
 import Root from '../pages/Root/Root';
 import ErrorPage from '../pages/ErrorPage/ErrorPage';
 import Home from '../pages/Home/Home';
@@ -10,39 +10,42 @@ import AppError from '../pages/AppError/AppError';
 
 
 
+
 export const router = createBrowserRouter([
   {
     path: "/",
-    Component: Root ,
+    element: <Root></Root> ,
     errorElement: <ErrorPage></ErrorPage>,
     children: [
         {
             index: true,
             loader: () => fetch("/appData.json").then(res => res.json()),
+            element: <Home></Home>
             
-            Component: Home
         },
         {
           path: '/apps',
-          Component: Apps,
+          element: <Apps></Apps>,
           loader: () => fetch("/appData.json").then(res => res.json()),
         },
 
         
         {
           path: '/installation',
-          Component: Installation,
+          element:<Installation></Installation>,
           loader: () => fetch("/appData.json").then(res => res.json()),
         },
         {
           path: '/app/:id',
-          Component: AppDetail,
+          element: <AppDetail></AppDetail>,
           loader: () => fetch("/appData.json").then(res => res.json()),
           errorElement: AppError
-        }
-
-    ]
+        },
+        
+     ]
   },
+  
+
 ]);
 
 
