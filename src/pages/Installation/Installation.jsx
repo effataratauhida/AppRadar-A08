@@ -81,7 +81,7 @@ const Installation = () => {
                     <div>
                         {installedApps.map(app => (
                             <div key={app.id}
-                            className='flex items-center gap-4 bg-white rounded-sm py-6 px-4 my-4'>
+                            className='flex items-center gap-2 md:gap-4 bg-white rounded-sm py-6 px-4 my-4'>
                                 <img src={app.image} alt="" className='w-20 h-20 rounded-lg' />
                                 {/* ratings, download, size */}
                                 <div>
@@ -116,7 +116,7 @@ const Installation = () => {
                                 {/* uninstall btn */}
                                 
                                 <button onClick={() => handleUninstall(app.id)}
-                                className='ml-auto py-3 px-4 rounded-sm font-semibold text-xl text-white bg-[#00D390] hover:scale-105 cursor-pointer'>
+                                className='ml-auto md:py-3 md:px-4 py-2 px-3 rounded-sm font-semibold md:text-xl text-base text-white bg-[#00D390] hover:scale-105 cursor-pointer'>
                                     Uninstall</button>
                                 
                                 
